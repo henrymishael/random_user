@@ -94,10 +94,7 @@ export default function Header() {
           ))}
         </nav>
         <div className='flex items-center gap-2'>
-          <Link
-            target='_blank'
-            href='https://docs.google.com/forms/d/e/1FAIpQLSdIlGbYjokRTIbGjEZyDahwzAHYNq5dNGryhQqvRHjXnc7_nA/viewform?usp=header'
-          >
+          <Link href='/'>
             <Button>Enroll Now</Button>
           </Link>
         </div>

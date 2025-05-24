@@ -66,9 +66,6 @@ export default function Dashboard() {
           <Users className='w-8 h-8 text-primary' />
           <h1 className='text-3xl font-bold'>User Dashboard</h1>
         </div>
-        <p className='text-muted-foreground'>
-          Browse through our user directory with pagination
-        </p>
       </div>
 
       {loading ? (
@@ -101,9 +98,6 @@ export default function Dashboard() {
               totalPages={totalPages}
               onPageChange={handlePageChange}
             />
-            <p className='text-sm text-muted-foreground'>
-              Page {currentPage} of {totalPages} • Showing 10 users per page
-            </p>
           </div>
         </>
       )}
